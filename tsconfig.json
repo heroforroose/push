@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "strict":true,
+    "sourceMap":true,
+    "sourceRoot":"G:\\projects\\achermind\\push",
+    "experimentalDecorators":true,
+    "help":true,
+    "types": ["node"],
+    "baseUrl": "./",
+    "paths": {
+      "*" : [
+        "*",
+        "extends"
+      ]
+    },
+    "outDir": "res",
+    "declaration": true,
+    "declarationDir": "./types",
+    "traceResolution":true
+  }
+}
